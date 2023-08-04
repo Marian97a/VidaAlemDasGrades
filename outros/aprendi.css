@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    font-weight: 400;
+    font-family: Monospace, serif, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #FF735C;
+    margin: 0;
+}
+
+header{
+    background-color: #213A40;
+    border-radius: 5px;
+}
+
+section,footer,table,p{
+    margin: 40px;
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    margin: 40px;
+}
+
+nav li a{
+    padding: 7px;
+    color: #FF735C;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav{
+    font-size: 15px;
+    letter-spacing: 10px;
+    height: 40px;
+    background-color: #FF735C;
+    padding-right: 40px;
+}
+
+table{
+    width: 94%;
+}
+
+table td{
+    color: #213A40;
+    padding: 5px;
+}
+
+table tr:nth-child(even){
+    background-color: #FF735C;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+    background-color: #68469e;
+    text-align: center;
+}
+
+table thead th{
+    background-color: #a686d8;
+}
+
+h3{
+    text-align: center;
+}
+
+#pacotes .figuras{}
+
+/*Link ativo/selecionado*/
+a{text-decoration: none;
+    background-color: #213A40;
+    color: #FF735C;
+    border-radius: 2px;
+    padding:5px 20px;
+}
+/*Quando o mouse passa por cima*/
+a:hover {
+    color: #E1E1E1;}
+/*a:active {
+        color: #306b92;}*/
+/*Link já visitado
+a:visited {
+  color: blue;}
+Link não visitado 
+a:link {
+    color: green;
+  }*/
+li{color: #FF735C;}
