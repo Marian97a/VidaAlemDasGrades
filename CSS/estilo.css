@@ -3,14 +3,14 @@
   }
 
 .bg-CD4F40{
-    background-color: #F8EDE5 !important;
+    background-color: white !important;
 }
 
 .bg-F8EDE5{
     background-color: #F8EDE5 !important;
 }
 .bg-62330F{
-    background-color: #62330F !important;
+    background-color: #004AAD !important;
 }
 
 .logo img{
@@ -23,7 +23,7 @@
 }
 .carousel-caption h5{
     font-size: 50px;
-    color: #62330F;
+    color: #5A98A9;
     text-shadow: 2px 2px 2px #F8EDE5;
 }
 
@@ -37,14 +37,14 @@ h1{
     text-align: center;
     border-radius: 5px;
     background-color: #F28705;
-    color: #151916;
+    color: #ac0b33;
     text-transform: capitalize;
     font-style: Tahoma;
 }
 
 h2{
     font-size: 54px;
-    color: #62330F;
+    color: #004AAD;
     padding: 0%;
     font-weight: 600;
     font-style: Arial;
@@ -56,16 +56,16 @@ h2{
     color: #F28705 !important;
 }
 .text-bg-62330F{
-    color: #62330F !important;
+    color: #004AAD !important;
 }
 
 .text-bg-F8EDE5{
-    color: #F8EDE5 !important;
+    color: #f7e5f8 !important;
 }
 
 a{text-decoration: none;
     background-color: #F28705;
-    color: #62330F;
+    color: #004AAD;
     border-radius: 100px;
     padding:5px 20px;
     transition-duration: 1;
