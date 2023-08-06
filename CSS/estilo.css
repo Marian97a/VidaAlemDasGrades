@@ -1,14 +1,17 @@
+/*Cor Background Menu*/
 .bg-F28705 {
     background-color: #F28705 !important;
   }
 
+/*Cor Background index*/
 .bg-CD4F40{
     background-color: white !important;
 }
-
+/*Cor Background contato e pagamento*/
 .bg-F8EDE5{
-    background-color: #F8EDE5 !important;
+    background-color: white!important;
 }
+/*Cor Background adicionar ao carrinho*/
 .bg-62330F{
     background-color: #004AAD !important;
 }
@@ -17,14 +20,6 @@
     position:absolute;
     margin-top: 15px;
     margin-left: 10px;
-}
-.logo{
-    transform: translateY(-2px);
-}
-.carousel-caption h5{
-    font-size: 50px;
-    color: #5A98A9;
-    text-shadow: 2px 2px 2px #F8EDE5;
 }
 
 section,footer,table,p{
@@ -37,7 +32,7 @@ h1{
     text-align: center;
     border-radius: 5px;
     background-color: #F28705;
-    color: #ac0b33;
+    color: #94ac0b;
     text-transform: capitalize;
     font-style: Tahoma;
 }
@@ -60,7 +55,7 @@ h2{
 }
 
 .text-bg-F8EDE5{
-    color: #f7e5f8 !important;
+    color: white !important;
 }
 
 a{text-decoration: none;
@@ -77,6 +72,32 @@ a{text-decoration: none;
     -moz-user-select: none;
     user-select: none;
   }
+  table{
+    width: 94%;
+}
+
+table td, table th{
+    padding: 5px;
+    border: 2px solid white;
+}
+
+table tr:nth-child(even){
+    background-color: #004AAD;
+    text-align: center;
+    color: white;
+}
+
+table tr:nth-child(odd){
+    background-color: #F28705;
+    text-align: center;
+    color: #004AAD;
+    
+}
+
+table thead th{
+    background-color: #004AAD;
+    color: white;
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
@@ -100,8 +121,19 @@ a{text-decoration: none;
 
   @media (max-width: 992px){
     .nav-link{
-      border-bottom:solid 1px #F28705;
+      border-bottom:solid 1px #9b05f2;
       border-radius: 0;
     }
+  }
+  caption {
+    display: table-caption;
+    text-align: center;
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    color: #F28705;
+  }
+  p{
+    color: #004AAD;
   }
     
