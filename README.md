@@ -1,4 +1,4 @@
-**#Viva Viajando - Agência de Viagens**   ![logo](https://raw.githubusercontent.com/Luchecy/NossoCat-Descomplica/main/img/logo1.png)
+**#Viva Viajando - Agência de Viagens** 
 
    Bem-vindo(a) ao projeto do site Viva Viajando! Aqui, você encontrará todos os detalhes sobre a criação e desenvolvimento do site da nossa agência de viagens.
    
