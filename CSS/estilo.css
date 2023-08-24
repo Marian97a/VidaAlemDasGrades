@@ -1,6 +1,6 @@
 /*Cor Background Menu*/
 .bg-F28705 {
-    background-color: #F28705 !important;
+    background-color: #F2695C !important;
   }
 
 /*Cor Background index*/
@@ -13,7 +13,7 @@
 }
 /*Cor Background adicionar ao carrinho*/
 .bg-62330F{
-    background-color: #004AAD !important;
+    background-color: #325259 !important;
 }
 
 .logo img{
@@ -31,27 +31,27 @@ h1{
     padding: 5px;
     text-align: center;
     border-radius: 5px;
-    background-color: #F28705;
-    color: #94ac0b;
+    background-color: #F2695C;
+    color: #325259;
     text-transform: capitalize;
     font-style: Tahoma;
 }
 
 h2{
     font-size: 54px;
-    color: #004AAD;
+    color: #325259;
     padding: 0%;
     font-weight: 600;
     font-style: Arial;
 }
-.btn-bg-F28705{background-color: #F28705 !important;
+.btn-bg-F28705{background-color: #F2695C !important;
 
 }
 .text-bg-F28705{
-    color: #F28705 !important;
+    color: #F2695C !important;
 }
 .text-bg-62330F{
-    color: #004AAD !important;
+    color: #325259 !important;
 }
 
 .text-bg-F8EDE5{
@@ -59,8 +59,8 @@ h2{
 }
 
 a{text-decoration: none;
-    background-color: #F28705;
-    color: #004AAD;
+    background-color: #F2695C;
+    color: #325259;
     border-radius: 100px;
     padding:5px 20px;
     transition-duration: 1;
@@ -82,20 +82,20 @@ table td, table th{
 }
 
 table tr:nth-child(even){
-    background-color: #004AAD;
+    background-color: #325259;
     text-align: center;
     color: white;
 }
 
 table tr:nth-child(odd){
-    background-color: #F28705;
+    background-color: #F2695C;
     text-align: center;
-    color: #004AAD;
+    color: #325259;
     
 }
 
 table thead th{
-    background-color: #004AAD;
+    background-color: #325259;
     color: white;
 }
 
@@ -121,7 +121,7 @@ table thead th{
 
   @media (max-width: 992px){
     .nav-link{
-      border-bottom:solid 1px #9b05f2;
+      border-bottom:solid 1px #325259;
       border-radius: 0;
     }
   }
@@ -131,9 +131,12 @@ table thead th{
     caption-side: top;
     padding: 10px;
     font-weight: bold;
-    color: #F28705;
+    color: #F2695C;
   }
   p{
-    color: #004AAD;
+    color: #325259;
   }
-    
+  .navbar-toggler {
+    border: var(--bs-border-width) solid ;
+    color:#325259
+  }
