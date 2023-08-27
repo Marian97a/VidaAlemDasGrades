@@ -44,6 +44,12 @@ h2{
     font-weight: 600;
     font-style: Arial;
 }
+
+h3{
+  font-size: px;
+  color: #385B64;
+  font-style: Arial;
+}
 .btn-bg-F28705{background-color: #F2695C !important;
 
 }
