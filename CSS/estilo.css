@@ -13,7 +13,7 @@
 }
 /*Cor Background adicionar ao carrinho*/
 .bg-62330F{
-    background-color: #325259 !important;
+    background-color: #385B64 !important;
 }
 
 .logo img{
@@ -32,14 +32,14 @@ h1{
     text-align: center;
     border-radius: 5px;
     background-color: #F2695C;
-    color: #325259;
+    color: #385B64;
     text-transform: capitalize;
     font-style: Tahoma;
 }
 
 h2{
     font-size: 54px;
-    color: #325259;
+    color: #385B64;
     padding: 0%;
     font-weight: 600;
     font-style: Arial;
@@ -51,7 +51,7 @@ h2{
     color: #F2695C !important;
 }
 .text-bg-62330F{
-    color: #325259 !important;
+    color: #385B64 !important;
 }
 
 .text-bg-F8EDE5{
@@ -60,7 +60,7 @@ h2{
 
 a{text-decoration: none;
     background-color: #F2695C;
-    color: #325259;
+    color: #385B64;
     border-radius: 100px;
     padding:5px 20px;
     transition-duration: 1;
@@ -82,7 +82,7 @@ table td, table th{
 }
 
 table tr:nth-child(even){
-    background-color: #325259;
+    background-color: #385B64;
     text-align: center;
     color: white;
 }
@@ -90,12 +90,12 @@ table tr:nth-child(even){
 table tr:nth-child(odd){
     background-color: #F2695C;
     text-align: center;
-    color: #325259;
+    color: #385B64;
     
 }
 
 table thead th{
-    background-color: #325259;
+    background-color: #385B64;
     color: white;
 }
 
@@ -121,7 +121,7 @@ table thead th{
 
   @media (max-width: 992px){
     .nav-link{
-      border-bottom:solid 1px #325259;
+      border-bottom:solid 1px #385B64;
       border-radius: 0;
     }
   }
@@ -134,9 +134,9 @@ table thead th{
     color: #F2695C;
   }
   p{
-    color: #325259;
+    color: #385B64;
   }
   .navbar-toggler {
     border: var(--bs-border-width) solid ;
-    color:#325259
+    color:#385B64
   }
