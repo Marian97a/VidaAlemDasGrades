@@ -9,7 +9,7 @@
 }
 /*Cor Background contato e pagamento*/
 .bg-F8EDE5{
-    background-color: white!important;
+    background-color: #ffffff!important;
 }
 /*Cor Background adicionar ao carrinho*/
 .bg-62330F{
@@ -53,6 +53,7 @@ h3{
 .btn-bg-F28705{background-color: #F2695C !important;
 
 }
+
 .text-bg-F28705{
     color: #F2695C !important;
 }
@@ -146,3 +147,5 @@ table thead th{
     border: var(--bs-border-width) solid ;
     color:#385B64
   }
+  
+  

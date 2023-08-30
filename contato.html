@@ -50,10 +50,10 @@
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/footers/"
     />
-    <title id="faleConosco">Fale conosco</title>
+    <title id="faleConosco">Fale conosco - Viva Além das Grades</title>
   </head>
   <body id="inicioSites" class="bg-CD4F40">
-    <header class="container-fluid p-2 bg-F28705 text-center">
+    <header class="container-fluid p-3 bg-F28705 text-center">
       <nav class="navbar navbar-expand-lg bg-F28705 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html#inicioSites">
@@ -113,7 +113,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-bg-F8EDE5" href="apoio.html"
-                  >Apoie</a
+                  >Apoie-nos</a
                 >
               </li>
               <li class="nav-item">
@@ -126,7 +126,7 @@
         </div>
       </nav>
     </header>
-    <section class="container p-2 text-bg-62330F bg-F8EDE5">
+    <section class="container p-3 text-bg-62330F bg-F8EDE5">
       <h2 class="text-center">Fale conosco</h2>
       <form method="get" action="">
         <fieldset>
@@ -172,83 +172,32 @@
             />
           </div>
           <div class="mb-3">
-            <label class="form-label" for="numero">Idade:</label
-            ><br />
-            <input
-              type="number"
-              class="form-control"
-              id="idade"
-              name="idade"
-            />
+            <label class="form-label" for="assunto">Assunto:</label><br />
+            <input type="radio" id="duvida" value="duvida" name="assunto" />
+            <label class="form-label" for="m">Dúvida</label><br />
+            <input type="radio" id="sugestao" value="sugestao" name="assunto" />
+            <label class="form-label" for="f">Sugestão</label><br />
+            <input type="radio" id="relatarproblema" value="relatarproblema" name="assunto" />
+            <label class="form-label" for="o">Relatar um Problema</label><br>
+            <input type="radio" id="parcerias" value="parcerias" name="assunto" />
+            <label class="form-label" for="o">Parcerias</label>
           </div>
           <div class="mb-3">
-            <label class="form-label" for="sex">Sexo:</label><br />
-            <input type="radio" id="m" value="masculino" name="sexo" />
-            <label class="form-label" for="m">Masculino</label><br />
-            <input type="radio" id="f" value="feminino" name="sexo" />
-            <label class="form-label" for="f">Feminino</label><br />
-            <input type="radio" id="o" value="outro" name="sexo" />
-            <label class="form-label" for="o">Outros</label>
-          </div>
-          <div class="mb-3">
-            <label class="form-label" for="outrosex"
-              >Em caso de outros, informe qual:</label
+            <label class="form-label" for="outroassunto"
+              >Em caso de outro assunto, informe qual:</label
             >
             <input
               type="text"
               class="form-control"
-              placeholder="Digite o seu sexo"
+              placeholder="Digite aqui o assunto"
               name="nome"
               id="nome"
               required
               title="Somente letras são permitidas"
               pattern="[a-zA-Z\s]+$"
             /> <br>
-            <div class="mb-3">
-              <label class="form-label" for="idade">Data de Ida da Viagem:</label><br />
-              <input type="date" class="form-control" id="dataIda" name="dataIda" />
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="idade">Data de Volta da Viagem:</label><br />
-              <input type="date" class="form-control" id="dataVolta" name="dataVolta" />
-            </div>
-            <div class="mb-3">
-              <label class="form-label" for="numero">Quantidade de Pessoas:</label
-              ><br />
-              <input
-                type="number"
-                class="form-control"
-                id="qtdpessoas"
-                name="qtdPessoas"
-              />
-          </div>
-          <fieldset>
-            <legend>Quais serviços deseja contratar?</legend>
-            <label>
-              <br /><input
-                type="checkbox"
-                name="passagens"
-                value="Passagens"
-              /> Compra de passagens
-            </label> <br>
-            <label>
-              <br /><input
-                type="checkbox"
-                name="hospedagem"
-                value="Hospedagem"
-              /> Reserva de hotel
-            </label> <br>
-            <label>
-              <br /><input
-                type="checkbox"
-                name="veiculos"
-                value="Veículo"
-              /> Aluguel de veículos <br />
-            </label>
-          </fieldset>
-          <br />
           <div> 
-            <legend>Se desejar, fique à vontade para deixar sua mensagem:</legend>
+            <legend>Fique à vontade para deixar sua mensagem:</legend>
             <textarea style="width: 100%; height: 15vh;" name="comentario"></textarea><br />
           </div>
           </fieldset>
@@ -258,30 +207,30 @@
             <input
               type="checkbox"
               class="form-check-input"
-              name="passagens"
-              value="Passagens"
-              id="compraPassagens"
+              name="termosecondicoes1"
+              value="termosecondicoes1"
+              id="termosecondicoes1"
             />
-            <label class="form-check-label" for="compraPassagens">
-              Eu aceito os termos e condições do Vida Além das Grades.*
+            <label class="form-check-label" for="termosecondicoes1">
+              Eu concordo com os Termos e Condições do Vida Além das Grades.*
             </label>
           </div>
           <div class="form-check">
             <input
               type="checkbox"
               class="form-check-input"
-              name="hospedagem"
-              value="Hospedagem"
-              id="reservaHospedagem"
+              name="termosecondicoes2"
+              value="termosecondicoes2"
+              id="termosecondicoes2"
             />
-            <label class="form-check-label" for="reservaHospedagem">
-              Eu aceito receber conteúdo educacional e promocional do projeto Vida Além das Grades.
+            <label class="form-check-label" for="termosecondicoes2">
+              Eu aceito receber conteúdo educativo e promocional do projeto Vida Além das Grades.
             </label>
           </div>
         </fieldset>
         <br />
-        <button class="btn-bg-F28705" href="#faleConosco">Enviar</button>
-        <a class="btn-bg-F28705" href="index.html">Voltar</a>
+        <a class="btn-bg-F28705 text-bg-F8EDE5" href="#faleConosco">Enviar</a>
+        <a class="btn-bg-F28705 text-bg-F8EDE5" href="index.html">Voltar</a>
       </form>
     </section>
     <div class="container">
@@ -310,19 +259,19 @@
             <span>Redes sociais:</span>
           </div>
           <li class="ms-3">
-            <a class="footer-link" href="#"
+            <a class="footer-link text-bg-F8EDE5" href="#"
               ><i class="bi bi-twitter" width="25" height="24"></i
               ><use xlink:href="#twitter"
             /></a>
           </li>
           <li class="ms-3">
-            <a class="footer-link" href="#"
+            <a class="footer-link text-bg-F8EDE5" href="#"
               ><i class="bi bi-instagram" width="25" height="24"></i
               ><use xlink:href="#instagram" />
             </a>
           </li>
           <li class="ms-3">
-            <a class="footer-link" href="#"
+            <a class="footer-link text-bg-F8EDE5" href="#"
               ><i class="bi bi-facebook" width="25" height="24"></i>
               <use xlink:href="#facebook" />
             </a>
