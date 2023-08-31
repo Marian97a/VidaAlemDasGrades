@@ -2,7 +2,8 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -127,337 +128,75 @@
       </nav>
     </header>
     <main class="container">
-      <section class="container-fluid bg-light text-center p-2 bg-CD4F40">
-      <br>
-      <h2>Perfil do usuário</h2>
-      </section>
-      <div class="container marketing">
-      <div class="row g-5">
-        <div class="col-md-5 col-lg-4 order-md-last">
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-bg-F28705">Seu carrinho de compras</span>
-            <span class="badge bg-F28705 rounded-pill">3</span>
-          </h4>
-          <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0 text-bg-62330F">Cristo Redentor – Brasil</h6>
-                <small class="text-bg-62330F">Pacote de Viagem</small>
-              </div>
-              <span class="text-bg-62330F">R$ 935,00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0 text-bg-62330F">Reserva de hotel</h6>
-                <small class="text-bg-62330F">Pacote de Serviço</small>
-              </div>
-              <span class="text-bg-62330F">R$ 150,00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0 text-bg-62330F">Traslados e transporte local</h6>
-                <small class="text-bg-62330F">Pacote de Serviço</small>
-              </div>
-              <span class="text-bg-62330F">R$ 80,00</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between bg-body-tertiary"
-            >
-              <div class="text-success">
-                <h6 class="my-0">Código promocional</h6>
-                <small>#VivaViajando</small>
-              </div>
-              <span class="text-success">−R$50,00</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between text-bg-62330F"
-            >
-              <span>Total (BR)</span>
-              <strong>R$ 1.115,00</strong>
-            </li>
-          </ul>
-
-          <form class="card p-2">
-            <div class="input-group">
+      <aside bg-light text-center bg-CD4F40 class="col-sm-6">
+        <div id="titulo" class="py-5">
+          <h2 id="perfilh2">Cadastre-se agora</h2><br>
+        <h4>Para ter acesso a mais conteúdos do site, basta preencher o formulário com seus dados cadastrais.</h4></div>
+        <form class="needs-validation">
+          <div class="row g-3">
+            <div class="col-sm-12">
+              <label for="primeiroNome" class="form-label"
+                >Nome completo:</label
+              >
               <input
                 type="text"
                 class="form-control"
-                placeholder="Código promocional"
+                id="primeiroNome"
+                placeholder="Exemplo exemplo exemplo"
+                value=""
+                required
               />
-              <button type="submit" class="btn btn-success">Adicionar</button>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-7 col-lg-8 text-bg-62330F">
-          <h4 class="mb-3">Endereço de pagamento</h4>
-          <form class="needs-validation" novalidate>
-            <div class="row g-3">
-              <div class="col-sm-6">
-                <label for="primeiroNome" class="form-label"
-                  >Primeiro nome</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="primeiroNome"
-                  placeholder="Exemplo"
-                  value=""
-                  required
-                />
-                <div class="invalid-feedback">
-                  Valid first name is required.
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <label for="lastName" class="form-label">Último nome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastName"
-                  placeholder="Exemplo"
-                  value=""
-                  required
-                />
-                <div class="invalid-feedback">
-                  O sobrenome válido é obrigatório.
-                </div>
-              </div>
-
-              <div class="col-12">
-                <label for="username" class="form-label">Nome de usuário</label>
-                <div class="input-group has-validation">
-                  <span class="input-group-text">@</span>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="username"
-                    placeholder="Nome de usuário"
-                    required
-                  />
-                  <div class="invalid-feedback">
-                    Seu nome de usuário é obrigatório.
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <label for="email" class="form-label"
-                  >Email
-                  <span class="text-body-secondary">(Opcional)</span></label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="exemplo@exemplo.com"
-                />
-                <div class="invalid-feedback">
-                  Por favor, adicione um endereço de e-mail válido para
-                  atualizações de envio.
-                </div>
-              </div>
-
-              <div class="col-12">
-                <label for="address" class="form-label">Endereço</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address"
-                  placeholder="Rua xx, número xxx."
-                  required
-                />
-                <div class="invalid-feedback">
-                  Por favor, insira seu endereço de entrega.
-                </div>
-              </div>
-
-              <div class="col-12">
-                <label for="address2" class="form-label"
-                  >Complemento
-                  <span class="text-body-secondary">(Opcional)</span></label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address2"
-                  placeholder="Casa ou Apartamento"
-                />
-              </div>
-
-              <div class="col-md-5">
-                <label for="country" class="form-label">País</label>
-                <select class="form-select" id="country" required>
-                  <option value="">Escolha...</option>
-                  <option>Brasil</option>
-                </select>
-                <div class="invalid-feedback">Selecione um país válido.</div>
-              </div>
-
-              <div class="col-md-4">
-                <label for="state" class="form-label">Estado</label>
-                <select class="form-select" id="state" required>
-                  <option value="">Escolha...</option>
-                  <option>Pernambuco</option>
-                </select>
-                <div class="invalid-feedback">Forneça um estado válido.</div>
-              </div>
-
-              <div class="col-md-3">
-                <label for="zip" class="form-label">CEP</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="zip"
-                  placeholder=""
-                  required
-                />
-                <div class="invalid-feedback">
-                  O código do cep é obrigatório.
-                </div>
+              <div class="invalid-feedback">
+                Valid first name is required.
               </div>
             </div>
 
-            <hr class="my-4" />
-
-            <div class="form-check">
+            <div class="col-12">
+              <label for="email" class="form-label"
+                >Email:
+                <span class="text-body-secondary"></span></label
+              >
               <input
-                type="checkbox"
-                class="form-check-input"
-                id="same-address"
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="exemplo@exemplo.com"
               />
-              <label class="form-check-label" for="same-address"
-                >O endereço de entrega é o mesmo do meu endereço de
-                cobrança.</label
-              >
-            </div>
-
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="save-info" />
-              <label class="form-check-label" for="save-info"
-                >Salvar essa informações para a próxima vez.</label
-              >
-            </div>
-
-            <hr class="my-4" />
-
-            <h4 class="mb-3">Formas de Pagamento</h4>
-
-            <div class="my-3">
-              <div class="form-check">
-                <input
-                  id="credit"
-                  name="paymentMethod"
-                  type="radio"
-                  class="form-check-input"
-                  checked
-                  required
-                />
-                <label class="form-check-label" for="credit"
-                  >Cartão de crédito</label
-                >
-              </div>
-              <div class="form-check">
-                <input
-                  id="debit"
-                  name="paymentMethod"
-                  type="radio"
-                  class="form-check-input"
-                  required
-                />
-                <label class="form-check-label" for="debit"
-                  >Cartão de débito</label
-                >
-              </div>
-              <div class="form-check">
-                <input
-                  id="paypal"
-                  name="paymentMethod"
-                  type="radio"
-                  class="form-check-input"
-                  required
-                />
-                <label class="form-check-label" for="paypal"
-                  >Dinheiro ou pix</label
-                >
+              <div class="invalid-feedback">
+                Por favor, adicione um endereço de e-mail válido para
+                atualizações de envio.
               </div>
             </div>
-
-            <div class="row gy-3">
-              <div class="col-md-6">
-                <label for="cc-name" class="form-label">Nome no cartão:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="cc-name"
-                  placeholder="Exemplo Exemplo"
-                  required
-                />
-                <small class="text-body-secondary"
-                  >Nome completo conforme exibido no cartão</small
-                >
-                <div class="invalid-feedback">
-                  O nome no cartão é obrigatório
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <label for="cc-number" class="form-label"
-                  >Número do cartão de crédito:</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="cc-number"
-                  placeholder="xxxx xxxx xxxx"
-                  required
-                />
-                <small class="text-body-secondary"
-                  >Número completo conforme exibido no cartão</small
-                >
-                <div class="invalid-feedback">
-                  O número do cartão de crédito é obrigatório
-                </div>
-              </div>
-
-              <div class="col-md-3">
-                <label for="cc-expiration" class="form-label">Expiração:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="cc-expiration"
-                  placeholder=""
-                  required
-                />
-                <small class="text-body-secondary">Data de expiração</small>
-                <div class="invalid-feedback">
-                  Data de expiração é necessária
-                </div>
-              </div>
-
-              <div class="col-md-3">
-                <label for="cc-cvv" class="form-label">CVV:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="cc-cvv"
-                  placeholder=""
-                  required
-                /><small class="text-body-secondary">Código de segurança</small>
-                <div class="invalid-feedback">
-                  Código de segurança necessário
-                </div>
-              </div>
+            <div class="col-12">
+              <label for="senha" class="form-label">Senha:</label>
+              <input type="password" name="senha" class="form-control"/> 
             </div>
+ 
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info" />
+            <label class="form-check-label" for="save-info"
+              >Lembrar a senha</label
+            >
+          </div> 
+          <a id="enviar" class="btn-bg-F28705 text-bg-F8EDE5" href="#">Cadastre-se</a>        
+        </form>
+      </aside>
+      <br>
+      <article mb-3 d-inline-block class="py-5">
+        <img src="img/login.jpg" alt="imagem de login" width="100%" height="100%" class=" d-inline-block py-3">
+      </article>
 
-            <hr class="my-4" />
 
-            <button class="w-100 btn btn-bg-F28705 text-bg-F8EDE5 btn-lg" type="submit">
-              Continuar para finalizar a compra
-            </button>
-          </form>
-        </div>
-      </div>
+
+
+
+
+
+
+
+
+
+
     </main>
     <div class="container">
       <footer
@@ -511,34 +250,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <div
-    class="modal fade"
-    id="exampleModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">Produto adicionado ao carrinho!</div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-            Continuar comprando
-          </button>
-          <button type="button" class="btn btn-success">
-            Finalizar a compra
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 </html>

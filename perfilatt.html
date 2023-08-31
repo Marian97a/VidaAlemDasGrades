@@ -2,7 +2,8 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -50,13 +51,10 @@
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/footers/"
     />
-    <title>Quem Somos - Vida Além das Grades</title>
+    <title>Perfil - Viva Além das Grades</title>
   </head>
-  <body id="inicioSites" class="container bg-CD4F40">
-    <header
-      class="container-fluid p-2 bg-F28705 text-center"
-      style="margin-top: 1rem"
-    >
+  <body class="bg-F8EDE5">
+    <header class="container-fluid p-2 bg-F28705 text-center">
       <nav class="navbar navbar-expand-lg bg-F28705 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html#inicioSites">
@@ -129,49 +127,77 @@
         </div>
       </nav>
     </header>
-    <section class="container bg-light text-center py-4 bg-CD4F40">
-      <h2>Quem somos?</h2>
-      <br /><br />
-      <div class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h5
-              style="text-align: justify"
-              class="featurette-heading fw-normal lh-1 text-bg-62330F"
-            >
-              Bem-vindo ao Vida Além das Grades! Nossa missão é criar um impacto positivo na vida daqueles que enfrentaram desafios únicos e estão determinados a transformar suas trajetórias. O projeto começou com a visão de oferecer oportunidades, recursos e apoio a pessoas reintegradas, reclusos estudantes e adolescentes em conflito com a lei em busca de melhoria de vida.<br><br>
-
-              Desde o início, nos comprometemos em construir uma plataforma que conecta pessoas com projetos inspiradores a indivíduos, empresas e organizações dispostas a fazer a diferença. Nossa equipe é dedicada à causa da inclusão e reinserção social, trabalhando arduamente para criar um ambiente de apoio e solidariedade.<br>
-              <span class="text-bg-F28705"
-                ><br>Acreditamos que todos merecem uma segunda oportunidade para construir um futuro melhor. Oferecemos apoio por meio de empregos, educação e assistência financeira, incluindo materiais e orientações.<br>
-
-                <br>Estamos juntos na transformação de vidas e na construção de um futuro mais inclusivo e promissor. O Vida Além das Grades é sinônimo de esperança e dedicação. Junte-se a nós nessa jornada de transformação e inclusão.</span
-              ><br>
-            </h5>
-            <h6 class="text-bg-62330F">-VidaAlémDasGrades</h6>
-          </div>
-          <div class="col-md-5">
-            <img
-              src="img/quemsomos1.png"
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-              alt="quemsomos"
-            />
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-            <br><div class="text-bg-62330F">
-              <text x="50%" y="50%" dy=".3em"> Histórias & Oportunidades </text>
+    <main class="container">
+      <aside bg-light text-center bg-CD4F40 class="col-sm-6">
+        <div id="titulo" class="py-5">
+          <h2 id="perfilh2">Inscreva-se agora</h2>
+        <p>Para ter acesso a mais conteúdos do site, basta preencher o formulário com seus dados cadastrais.</p></div>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-12">
+              <label for="primeiroNome" class="form-label"
+                >Nome Completo:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="primeiroNome"
+                placeholder="Exemplo exemplo exemplo"
+                value=""
+                required
+              />
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+            <div class="col-12">
+              <label for="email" class="form-label"
+                >Email:
+                <span class="text-body-secondary"></span></label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="exemplo@exemplo.com"
+              />
+              <div class="invalid-feedback">
+                Por favor, adicione um endereço de e-mail válido para
+                atualizações de envio.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="senha" class="form-label">Senha:</label>
+              <input type="password" name="senha" class="form-control"/> 
+            </div>
+ 
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info" />
+            <label class="form-check-label" for="save-info"
+              >Lembrar a senha</label
+            >
+          </div>         
+        </form>
+        <div><input type="submit" placeholder="Cadastre-se"></div>
+      </aside>
+      <br>
+      <article mb-3 d-inline-block class="py-5">
+        <img src="img/login.jpg" alt="imagem de login" width="100%" height="100%" class=" d-inline-block py-3">
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
     <div class="container">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -224,4 +250,34 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">Produto adicionado ao carrinho!</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+            Continuar comprando
+          </button>
+          <button type="button" class="btn btn-success">
+            Finalizar a compra
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>

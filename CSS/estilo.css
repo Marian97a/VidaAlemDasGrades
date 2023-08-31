@@ -1,3 +1,24 @@
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main{
+  display: flex;
+  flex-direction: row;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+#perfilh2, #perfilh22{
+  font-weight: 250;
+}
 /*Cor Background Menu*/
 .bg-F28705 {
     background-color: #F2695C !important;
@@ -45,8 +66,14 @@ h2{
     font-style: Arial;
 }
 
-h3{
-  font-size: px;
+
+  a.btn-bg-F28705.text-bg-F8EDE5 {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+  }
+
+h3,h4{
   color: #385B64;
   font-style: Arial;
 }
@@ -147,5 +174,8 @@ table thead th{
     border: var(--bs-border-width) solid ;
     color:#385B64
   }
-  
+
+  aside {
+    float: left;
+  }
   
