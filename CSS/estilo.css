@@ -2,10 +2,7 @@ body{
   max-width: 1200px;
   margin: 0 auto;
 }
-main{
-  display: flex;
-  flex-direction: row;
-}
+
 header{
   display: flex;
   flex-direction: row;
@@ -178,4 +175,3 @@ table thead th{
   aside {
     float: left;
   }
-  
