@@ -9,11 +9,13 @@
    O Vida Além das Grades é um projeto cuja missão é criar um impacto positivo na vida daqueles que enfrentaram desafios únicos e estão determinados a transformar suas trajetórias e construir um futuro mais promissor. O projeto começou com a visão de oferecer oportunidades, recursos e apoio a pessoas reintegradas, reclusos estudantes e adolescentes em conflito com a lei em busca de melhoria de vida. Acreditamos que todos merecem uma segunda chance e a oportunidade de se reintegrar positivamente à sociedade.
 
 ## **Tecnologias Utilizadas:**  
+![bootstrap](https://img.shields.io/badge/-Bootstrap-white?style=for-the-badge&logo=bootstrap&color=7952B3&logoColor=white)
+   
    As seguintes tecnologias foram empregadas no desenvolvimento do website do projeto Vida Além das Grades:
 
--HTML: Utilizado para estruturar o conteúdo do website, garantindo um layout claro e organizado.  
--CSS: Utilizado para estilizar e personalizar os aspectos visuais do website, proporcionando uma interface atrativa e amigável.  
--Bootstrap: Utilizado como framework para aprimorar a responsividade, otimizar os layouts e facilitar o processo de desenvolvimento.
+-**HTML**: Utilizado para estruturar o conteúdo do website, garantindo um layout claro e organizado.  
+-**CSS**: Utilizado para estilizar e personalizar os aspectos visuais do website, proporcionando uma interface atrativa e amigável.  
+-**Bootstrap**: Utilizado como framework para aprimorar a responsividade, otimizar os layouts e facilitar o processo de desenvolvimento.
 
 ## Objetivos
 
