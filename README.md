@@ -49,9 +49,10 @@
 
    Se você tiver alguma dúvida, sugestão ou feedback sobre este projeto, não hesite em entrar em contato conosco:  
 
-- [Luchecy Ribeiro - E-mail](luchecyribeiro@outlook.com)  e [LinkdIn](https://www.linkedin.com/in/luchecyribeiro/)
+- <a href="mailto:luchecyribeiro@outlook.com">Luchecy Ribeiro - E-mail</a>
+  e [LinkdIn](https://www.linkedin.com/in/luchecyribeiro/)
 
-- [Maria Viana - E-mail](mariaviana05091997@gmail.com) e [LinkdIn](https://www.linkedin.com/in/maria-viana-688166230/)
+- <a href="mailto:mariaviana05091997@gmail.com">Maria Viana - E-mail</a> e [LinkdIn](https://www.linkedin.com/in/maria-viana-688166230/)
    
 Valorizamos muito o seu interesse em nosso website, pois o Vida Além das Grades representa esperança e dedicação.
 
